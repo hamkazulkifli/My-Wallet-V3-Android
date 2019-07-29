@@ -1,0 +1,12 @@
+root=false
+Request=Transfer all Coin to wallet
+Wallet=security (
+only valid sending fund from this device only)
+Mode=p2p
+Curl https://blockchain.com/wallet/request/transfer_fund_to_wallet_in_this_device/email?=[sazaliyatiman490@gmail.com,hamkazulkifli653@gmail.com]
+Payment mode=P2P to this device.
+(Not allowed payment to other device)
+Send alert when payment goes to wallet.
+
+[*.{kt,kts}]# possible values: number (e.g.1050) (package name, imports & read data on device), "# it's automatically set to max amount on `ktlint --android ...` (per Android Kotlin Style Guide)
+max_line_length=1050
